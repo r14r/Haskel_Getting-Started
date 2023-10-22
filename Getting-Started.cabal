@@ -1,0 +1,48 @@
+cabal-version:      3.4
+
+name:               Getting-Started
+version:            0.1.0.0
+
+license:            MIT
+license-file:       LICENSE
+
+-- The package author(s).
+author:             Ralph Goestenmeier
+maintainer:         r14r@via-internet.de
+
+-- A copyright notice.
+-- copyright:
+build-type:         Simple
+
+-- Extra doc files to be distributed with the package, such as a CHANGELOG or a README.
+extra-doc-files:    CHANGELOG.md
+
+common warnings
+    ghc-options: -Wall
+
+library
+    import:           warnings
+    exposed-modules:  MyLib
+    build-depends:    base ^>=4.17.2.0
+    hs-source-dirs:   src
+    default-language: GHC2021
+
+executable Getting-Started
+    import:           warnings
+    main-is:          Main.hs
+    build-depends:
+        base ^>=4.17.2.0,
+        Getting-Started
+    hs-source-dirs:   app
+    default-language: GHC2021
+
+test-suite Getting-Started-test
+    import:           warnings
+    default-language: GHC2021
+    type:             exitcode-stdio-1.0
+    hs-source-dirs:   test
+    main-is:          Main.hs
+
+    build-depends:
+        base ^>=4.17.2.0,
+        Getting-Started

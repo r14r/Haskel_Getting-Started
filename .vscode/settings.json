@@ -1,0 +1,23 @@
+{
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        "**/Thumbs.db": true,
+        ".cabal": true,
+        ".cache": true,
+        ".config": true,
+        ".docker": true,
+        ".ghcup": true,
+        ".local": true,
+        ".podman": true,
+        ".ssh": true,
+        ".stack": true,
+        ".npm": true,
+        ".venv": true,
+        "**/.ipynb_checkpoints": true
+    },
+    "explorerExclude.backup": {}
+}

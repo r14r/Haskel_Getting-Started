@@ -1,0 +1,10 @@
+2023-10-22 11:20:19.754921000000 [13454(ThreadId 13)] ERROR APP - [CRITICAL] can not get the initial ghci prompt.
+2023-10-22 11:24:24.823513000000 [13854(ThreadId 13)] ERROR APP - [CRITICAL] can not get the initial ghci prompt.
+2023-10-22 11:32:03.209714000000 [15221(ThreadId 13)] ERROR APP - [CRITICAL] can not get the initial ghci prompt.
+2023-10-22 11:32:40.519117000000 [15288(ThreadId 13)] ERROR APP - [CRITICAL] can not get the initial ghci prompt.
+2023-10-22 11:33:23.607485000000 [15353(ThreadId 13)] ERROR APP - [CRITICAL] can not get the initial ghci prompt.
+2023-10-22 11:36:35.577371000000 [16185(ThreadId 13)] ERROR APP - [CRITICAL] can not get the initial ghci prompt.
+2023-10-22 11:37:04.655281000000 [16833(ThreadId 13)] ERROR APP - [CRITICAL] can not get the initial ghci prompt.
+2023-10-22 11:37:36.753812000000 [17486(ThreadId 13)] ERROR APP - user error (no stacktrace found.)
+2023-10-22 11:37:36.805729000000 [17486(ThreadId 13)] ERROR APP - user error (no stacktrace found.)
+2023-10-22 11:37:47.396579000000 [17486(ThreadId 13)] ERROR APP - user error (ExecResult not found.)
